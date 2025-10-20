@@ -72,15 +72,15 @@ section#skills {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 40px;
+  padding: 80px;
   border-radius: 8px;
-  color: #fff; /* Adjust for contrast */
+  color: #fff; 
   position: relative;
 }
 .skill-category {
   margin-bottom: 30px;
   background: rgba(30, 0, 3, 0.8);
-  padding: 20px;
+  padding: 50px;
   border-radius: 8px;
 }
 
@@ -112,7 +112,7 @@ section#skills {
 
 .hero-overlay {
   background: rgba(0, 0, 0, 0.6);
-  padding: 40px;
+  padding: 60px 20px;
   border-radius: 10px;
 }
 
@@ -154,4 +154,44 @@ section#skills {
   margin-bottom: 15px;
   line-height: 1.7;
   color: white;
+}
+/* Navigation Bar */
+header {
+  width: 100%;
+  background-color: #222;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  color: #ffd700;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
 }
