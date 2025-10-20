@@ -254,3 +254,46 @@ header {
 .project-card a:hover {
   text-decoration: underline;
 }
+#education {
+  background-image: url("../assets/images/alliance-picture.png");
+  padding: 60px 20px;
+}
+
+.education-wrapper {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.322);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.education-wrapper h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #130303;
+}
+
+.edu-block {
+  margin-bottom: 40px;
+}
+
+.edu-block h3 {
+  color: #1c1901;
+  margin-bottom: 10px;
+}
+
+.edu-block p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: black;
+}
+
+.edu-block ul {
+  padding-left: 20px;
+  color: #601818;
+}
+
+.edu-block ul li {
+  margin-bottom: 8px;
+}
