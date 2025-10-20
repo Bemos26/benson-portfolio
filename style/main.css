@@ -1,0 +1,157 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 30px auto;
+  max-width: 800px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
+nav a.active {
+  text-decoration: underline;
+  color: #ffd700; /* Gold highlight */
+}
+
+section#skills {
+  background-image: url('../assets/images/skill-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  border-radius: 8px;
+  color: #fff; /* Adjust for contrast */
+  position: relative;
+}
+.skill-category {
+  margin-bottom: 30px;
+  background: rgba(30, 0, 3, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skill-category h3 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.skill-category ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skill-category li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+#hero {
+  background-image: url('../assets/images/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #5e5a44fd;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #ffcc00;
+}
+#about {
+  background: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.about-wrapper {
+  max-width: 800px;
+  margin: auto;
+  background-image: url("../assets/images/about-background.jpg");
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #a4ab1f;
+}
+
+.about-wrapper p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+  color: white;
+}
