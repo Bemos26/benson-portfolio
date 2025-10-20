@@ -357,3 +357,32 @@ body {
   background-repeat: no-repeat;
   color: #fff;
 }
+
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8em;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #222;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
